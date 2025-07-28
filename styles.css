@@ -192,6 +192,7 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border: 1px solid #dee2e6;
     transition: transform 0.3s ease;
+    border-top: 4px solid #ec3e388a;
 }
 
 .project-card:hover {
