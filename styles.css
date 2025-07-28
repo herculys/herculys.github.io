@@ -131,7 +131,7 @@ body {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     padding: 1.5rem;
     border-radius: 10px;
-    border-top: 4px solid #667eea;
+    border-top: 4px solid #667eeab7;
 }
 
 .skill-card:hover {
@@ -151,7 +151,7 @@ body {
     padding: 1.5rem;
     border-radius: 10px;
     margin-bottom: 1rem;
-    border-left: 4px solid #28a745;
+    border-left: 4px solid #28a746a6;
 }
 
 .experience-title {
