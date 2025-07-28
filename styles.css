@@ -221,9 +221,6 @@ body {
 .highlighted-projects .project-card p {
     font-size: 0.95rem;
 }
-}
-    font-weight: 500;
-}
 
 .contact-info {
     display: grid;

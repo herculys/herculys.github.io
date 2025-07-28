@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <img src="img/profile.png" alt="Foto de perfil - Herculys" class="profile-photo">
+        <header class="header" style="user-select:none;-webkit-user-select:none;-ms-user-select:none;">
+            <img src="img/profile.png" alt="Foto de perfil - Herculys" class="profile-photo" draggable="false">
             <h1 class="main-title">Herculys</h1>
             <p class="subtitle">Analista de Dados</p>
             <p>Transformando dados em decisões inteligentes.</p>
@@ -231,10 +231,19 @@
             card.addEventListener('mouseenter', function() {
                 this.style.transform = 'translateY(-5px)';
             });
-            
             card.addEventListener('mouseleave', function() {
                 this.style.transform = 'translateY(0)';
             });
+        });
+
+        // Remover o menu de contexto ao clicar com direito
+        window.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        // Desabilitar o arrasto da foto de perfil
+        document.querySelector('.profile-photo').addEventListener('dragstart', function(e) {
+            e.preventDefault();
         });
     </script>
 </body>
