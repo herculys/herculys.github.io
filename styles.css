@@ -131,7 +131,7 @@ body {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     padding: 1.5rem;
     border-radius: 10px;
-    border-left: 4px solid #667eea;
+    border-top: 4px solid #667eea;
 }
 
 .skill-title {
