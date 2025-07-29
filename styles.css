@@ -275,7 +275,8 @@ body {
 
 .footer {
     text-align: center;
-    padding: 2rem;
+    /* padding: 2rem; */
+    margin-top: -1rem;
     color: white;
     opacity: 0.8;
 }
