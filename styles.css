@@ -38,9 +38,33 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: url('img/background.jpg') repeat;
+    background: url('img/background4.jpg') repeat;
+    background-position: left top;
+    background-size: auto;
+    position: relative;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #2c3e50;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 20px;
+    margin: 0;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 60px;
+    scrollbar-width: thin;
+    scrollbar-color: #667eea #f8f9fa;
+    -ms-overflow-style: none;
+
 }
+
 
 .container {
     max-width: 1200px;
@@ -269,6 +293,13 @@ body {
     background: linear-gradient(90deg, #667eea, #764ba2);
     border-radius: 4px;
     transition: width 2s ease;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 @media (max-width: 768px) {
