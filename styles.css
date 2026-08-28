@@ -28,11 +28,11 @@ body {
 }
 
 .profile-photo {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #dfe7f5;
+    border: 3px solid #66399a; /*#dfe7f5;*/
     box-shadow: 0 12px 28px rgba(31, 41, 55, 0.12);
     margin-bottom: 16px;
 }
@@ -121,7 +121,7 @@ body {
     }
 
     .profile-photo {
-        width: 96px;
-        height: 96px;
+        width: 200px;
+        height: 200px;
     }
 }
