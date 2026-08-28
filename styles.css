@@ -67,7 +67,7 @@ body {
 }
 
 .about-card {
-    background: rgba(29, 10, 34, 0.7);
+    background: rgba(29, 10, 34, 0.4);
     border: 1px solid rgba(102, 57, 154, 0.5);
     border-radius: 22px;
     box-shadow: 0 16px 38px rgba(3, 3, 3, 0.08);
