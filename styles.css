@@ -60,6 +60,12 @@ body {
     color: #d1d1d1;
 }
 
+.no .novacancy.off,
+.vacancy .novacancy.off {
+    color: #000000 !important;
+    opacity: 1;
+}
+
 .about-card {
     background: rgba(29, 10, 34, 0.7);
     border: 1px solid rgba(102, 57, 154, 0.5);

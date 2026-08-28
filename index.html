@@ -47,13 +47,18 @@
     <script src="https://cdn.jsdelivr.net/gh/chuckyglitch/novacancy.js@master/javascript/novacancy.js"></script>
     <script>
         initNovacancy('.no, .vacancy', {
+            'reblinkProbability': 0,
             color: '#f5e9ff',
             glow: ['0 0 24px #ffffff', '0 0 12px #c084fc', '0 0 4px #9333ea'],
-            blinkMin: 0.03,
+            off: 0,// amount of off chars
+            blink: 0,// amount of blink chars
+            blinkMin: 0.1,
             blinkMax: 0.2,
-            loopMin: 0.4,
-            loopMax: 1.2,
-            element: 'span'
+            loopMin: 0.5,
+            loopMax: 2.5,
+            element: 'span',
+            autoOn:true
+            
         });
     </script>
 </body>
