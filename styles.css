@@ -35,6 +35,12 @@ body {
     border: 3px solid #66399a; /*#dfe7f5;*/
     box-shadow: 0 12px 28px rgba(31, 41, 55, 0.12);
     margin-bottom: 16px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 16px 34px rgba(31, 41, 55, 0.2);
 }
 
 .hero h1 {
@@ -98,6 +104,15 @@ body {
     border-radius: 10px;
     padding: 10px 12px;
     font-size: 0.95rem;
+    transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-3px);
+    background: rgba(122, 73, 180, 0.45);
+    border-color: rgba(160, 113, 214, 0.8);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .contact-item img {
