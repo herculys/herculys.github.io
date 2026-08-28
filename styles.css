@@ -53,11 +53,11 @@ body {
 }
 
 .about-card {
-    background: rgba(63, 63, 63, 0.7);
-    border: 1px solid rgba(47, 48, 48, 0.22);
+    background: rgba(29, 10, 34, 0.7);
+    border: 1px solid rgba(102, 57, 154, 0.5);
     border-radius: 22px;
     box-shadow: 0 16px 38px rgba(3, 3, 3, 0.08);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
 }
 
 .about-section {
@@ -93,8 +93,8 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    background: rgba(12, 12, 12, 0.8);
-    border: 1px solid rgba(44, 44, 44, 0.3);
+    background: rgba(102, 57, 154, 0.3);
+    border: 1px solid rgba(102, 57, 154, 0.5);
     border-radius: 10px;
     padding: 10px 12px;
     font-size: 0.95rem;
