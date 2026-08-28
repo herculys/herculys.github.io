@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herculys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="img/icon.png">
 </head>
@@ -11,8 +14,8 @@
     <div class="page-shell">
         <header class="hero">
             <img src="img/profile.png" alt="Foto de perfil - Herculys" class="profile-photo" draggable="false">
-            <h1>Herculys</h1>
-            <p class="role">Data Analyst</p>
+            <h1 class="vacancy">Herculys</h1>
+            <p class="no">Data Analyst</p>
         </header>
 
         <main class="about-card">
@@ -41,5 +44,17 @@
             </section>
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/gh/chuckyglitch/novacancy.js@master/javascript/novacancy.js"></script>
+    <script>
+        initNovacancy('.no, .vacancy', {
+            color: '#f5e9ff',
+            glow: ['0 0 24px #ffffff', '0 0 12px #c084fc', '0 0 4px #9333ea'],
+            blinkMin: 0.03,
+            blinkMax: 0.2,
+            loopMin: 0.4,
+            loopMax: 1.2,
+            element: 'span'
+        });
+    </script>
 </body>
 </html>
